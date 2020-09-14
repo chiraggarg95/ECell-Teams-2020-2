@@ -210,8 +210,8 @@ header h1{
   }
 
   .person-info{
-    height: 325px;
-    width: 325px;
+    height: 480px;
+    width: 360px;
     margin: 10px;
     padding: 0px;
   }
@@ -340,6 +340,7 @@ header h1{
   }
 
   #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
+    background-position: center;
     background-size: cover;
   }
   
@@ -425,8 +426,8 @@ header h1{
   }
 
   .person-info{
-    height: 300px;
-    width: 300px;
+    height: 440px;
+    width: 330px;
     margin: 0px;
     padding: 10px;
   }
