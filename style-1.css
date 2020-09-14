@@ -158,6 +158,20 @@ header h1{
     text-transform: uppercase;
   }
 
+  .past-team{
+    background-color: #000000;
+  }
+
+  .past-team a{
+    color: #7e0ebd;
+    text-align: right;
+    /* width: 100%; */
+    display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+    /* text-decoration: #1f75ff solid !important; */
+  }
+
   .team-info{
     width: 100%;
     margin: 0px;
