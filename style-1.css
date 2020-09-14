@@ -151,17 +151,9 @@ header h1{
     transform: none;
   }
 
-
-  @media (max-width: 900px) {
-    #ecell-logo {
-      width: 80px;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .main {
-      margin: 0 0 0;
-    }
+  .team-info{
+    width: 100%;
+    margin: 0px;
   }
 
   .card {
@@ -382,3 +374,50 @@ header h1{
   background-color: #000000;
   color: #1f75ff;
 } */
+
+@media (max-width: 900px) {
+  #ecell-logo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    margin: 0 0 0;
+  }
+}
+
+@media (max-width: 576px){
+  /* .card-info {
+    min-height: 150px;
+    max-height: 125px;
+    min-width: 150px;
+    max-width: 125px;
+    -webkit-box-flex: 1;
+            flex: 1;
+    margin: 5px;
+    margin-bottom: 0px;
+    z-index: 1250;
+  } */
+
+  .text {
+    font-size: 15px;
+    font-weight: 800;
+  }
+
+  .backface .contacts a{
+    font-size: 1.4em;
+    margin: 0 2px;
+  }
+
+  .team-name{
+    font-size: 2.2em;
+  }
+
+  .person-info{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    padding: 0px;
+  }
+}
