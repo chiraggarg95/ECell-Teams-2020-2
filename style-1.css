@@ -292,8 +292,8 @@ header h1{
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
-    /* bottom: 0; */
+    /* left: 4%; */
+    bottom: 0;
     /* right: 0; */
     text-align: justify;
     justify-content: center;
@@ -407,18 +407,18 @@ header h1{
   }
 
   .backface .contacts a{
-    font-size: 2.5em;
-    margin: 0 2px;
+    font-size: 3em;
+    margin: 0 5px;
   }
 
   .team-name{
-    font-size: 2.2em;
+    font-size: 3em;
   }
 
   .person-info{
     height: 300px;
     width: 300px;
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
   }
 }
