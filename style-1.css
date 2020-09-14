@@ -105,7 +105,7 @@ header h1{
     background: linear-gradient(45deg, #7e0ebd, #1f75ff);
     transition: opacity 1s;
     color: #fff;
-    z-index: 20;
+    z-index: 2000;
     font-family: Nunito, sans-serif;
   }
   #main-menu table, #main-menu tr, #main-menu td {
@@ -149,6 +149,13 @@ header h1{
   }
   #main-menu td ul li a:hover::after {
     transform: none;
+  }
+
+  .nav-item a{
+    /* font-weight: 800; */
+    color: #ffffff !important;
+    /* font-size: 1.1em; */
+    text-transform: uppercase;
   }
 
   .team-info{
@@ -198,6 +205,8 @@ header h1{
     color: #1f75ff;
     font-size: 3.2em;
     font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 55px;
   }
 
   .person-info{
