@@ -243,6 +243,7 @@ header h1{
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     z-index: 1;
+    margin: 0px;
   }
   
   .inner:before {
@@ -401,12 +402,12 @@ header h1{
   } */
 
   .text {
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 800;
   }
 
   .backface .contacts a{
-    font-size: 1.4em;
+    font-size: 2.5em;
     margin: 0 2px;
   }
 
@@ -415,9 +416,9 @@ header h1{
   }
 
   .person-info{
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     margin: 10px;
-    padding: 0px;
+    padding: 10px;
   }
 }
